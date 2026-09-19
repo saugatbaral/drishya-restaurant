@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Drishya Restaurant | Dining near Begnas Lake, Pokhara</title>
+    <meta
+      name="description"
+      content="Drishya Restaurant in Pachbhaiya, Pokhara 31. Good food, cool air and peaceful moments in nature near Begnas Lake (Begnas Tal). Call 9808093952."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0e2b27" />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+
+    <!-- Google Search Console: after adding the site there, paste the verification tag here
+    <meta name="google-site-verification" content="PASTE-CODE-HERE" />
+    -->
+
+    <!-- Link previews (WhatsApp, Facebook, Messenger). public/og-image.png is 1200x630;
+         replace it with a real photo of the restaurant at the same size when you have one. -->
+    <meta property="og:type" content="restaurant.restaurant" />
+    <meta property="og:site_name" content="Drishya Restaurant" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:title" content="Drishya Restaurant | Psycho Dada — Enjoy the Nature" />
+    <meta
+      property="og:description"
+      content="Good food, cool air and peaceful moments surrounded by nature near Begnas Lake."
+    />
+    <meta property="og:image" content="%VITE_SITE_URL%/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Drishya Restaurant, Pachbhaiya, Pokhara 31, near Begnas Lake"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Noto+Serif+Devanagari:wght@500;700&family=Young+Serif&display=swap"
+    />
+
+    <!-- Start downloading the hero photo before the CSS and JS are ready -->
+    <link
+      rel="preload"
+      as="image"
+      fetchpriority="high"
+      imagesizes="100vw"
+      imagesrcset="
+        https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;q=70&amp;w=800   800w,
+        https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;q=70&amp;w=1400 1400w,
+        https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;q=70&amp;w=2000 2000w
+      "
+    />
+
+    <!-- Structured data: lets Google show the address, phone and map in results.
+         When you have them, add these inside the braces below (see Google's "Restaurant" docs):
+         "servesCuisine", "priceRange", "openingHoursSpecification", "sameAs" (Facebook/Instagram links) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "@id": "%VITE_SITE_URL%/#restaurant",
+        "name": "Drishya Restaurant",
+        "alternateName": ["दृश्य रेस्टुरेन्ट", "Drishya A Restaurant", "Psycho Dhada"],
+        "url": "%VITE_SITE_URL%/",
+        "image": "%VITE_SITE_URL%/og-image.png",
+        "description": "Good food, cool air and peaceful moments surrounded by nature near Begnas Lake.",
+        "telephone": "+9779808093952",
+        "hasMenu": "%VITE_SITE_URL%/#menu",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pachbhaiya, Pokhara 31",
+          "addressLocality": "Pokhara",
+          "addressRegion": "Gandaki Province",
+          "addressCountry": "NP"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 28.164927,
+          "longitude": 84.100755
+        },
+        "hasMap": "https://www.google.com/maps?ftid=0x3995a33cfd5536f9:0x9f3f84c2f1604501"
+      }
+    </script>
+
+    <script type="module" src="/src/main.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Watched by main.js to know when the page has scrolled -->
+    <div id="top-sentinel" aria-hidden="true"></div>
+
+    <!-- Icon sprite: drawn once, reused with <use> -->
+    <svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+      <symbol id="i-leaf" viewBox="0 0 24 24">
+        <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z" />
+        <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+      </symbol>
+      <symbol id="i-waves" viewBox="0 0 24 24">
+        <path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+        <path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+        <path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+      </symbol>
+      <symbol id="i-rain" viewBox="0 0 24 24">
+        <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
+        <path d="M16 14v6M8 14v6M12 16v6" />
+      </symbol>
+      <symbol id="i-dining" viewBox="0 0 24 24">
+        <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+        <path d="M7 2v20" />
+        <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+        <circle cx="12" cy="10" r="3" />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"
+        />
+      </symbol>
+      <symbol id="i-close" viewBox="0 0 24 24">
+        <path d="M18 6 6 18M6 6l12 12" />
+      </symbol>
+    </svg>
+
+    <!-- ===== Header ===== -->
+    <header class="site-header" id="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#home" aria-label="Drishya Restaurant, back to top">
+          <span class="brand-mark" lang="ne">दृश्य</span>
+          <span class="brand-name">Drishya Restaurant</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a class="btn btn-primary btn-sm" href="tel:+9779808093952">Call us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ===== Hero ===== -->
+      <section class="hero" id="home">
+        <div class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;q=70&amp;w=1400"
+            srcset="
+              https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;q=70&amp;w=800   800w,
+              https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;q=70&amp;w=1400 1400w,
+              https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;q=70&amp;w=2000 2000w
+            "
+            sizes="100vw"
+            alt=""
+            width="2000"
+            height="1333"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
+
+        <div class="wrap hero-content">
+          <h1>
+            <span class="hero-mark" lang="ne">दृश्य</span>
+            <span class="hero-name">Drishya Restaurant</span>
+          </h1>
+
+          <div class="hero-details">
+            <p class="hero-tagline">Psycho Dada — Enjoy the Nature</p>
+            <p class="hero-text">
+              Good food, cool air and peaceful moments surrounded by nature near Begnas Lake.
+            </p>
+            <p class="hero-place">
+              <svg class="icon" aria-hidden="true"><use href="#i-pin" /></svg>
+              Pachbhaiya, Pokhara 31
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#menu">Explore menu</a>
+              <a class="btn btn-light" href="tel:+9779808093952">
+                <svg class="icon" aria-hidden="true"><use href="#i-phone" /></svg>
+                Call 9808093952
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== About ===== -->
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="wrap">
+          <div class="about-top">
+            <h2 class="display" id="about-title">Where nature meets dining</h2>
+            <div class="about-copy">
+              <p>
+                Drishya means “view” in Nepali. Our restaurant is where dining and nature come
+                together near Begnas Lake (Begnas Tal), surrounded by greenery, fresh air and the
+                atmosphere of Pachbhaiya.
+              </p>
+              <p>We invite you to slow down, relax and enjoy the moment.</p>
+            </div>
+          </div>
+
+          <ul class="features">
+            <li class="feature">
+              <svg class="icon icon-lg" aria-hidden="true"><use href="#i-leaf" /></svg>
+              <h3>Greenery</h3>
+              <p>Natural greenery and peaceful views all around.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon icon-lg" aria-hidden="true"><use href="#i-waves" /></svg>
+              <h3>Begnas Lake</h3>
+              <p>The refreshing atmosphere of the Begnas Lake surroundings.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon icon-lg" aria-hidden="true"><use href="#i-rain" /></svg>
+              <h3>Cool air and rain</h3>
+              <p>Feel the cool breeze and see the hills at their freshest on rainy days.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon icon-lg" aria-hidden="true"><use href="#i-dining" /></svg>
+              <h3>Peaceful dining</h3>
+              <p>Relax, enjoy your meal and take in the natural surroundings.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===== Menu (tabs and items are built by main.js from menu.js) ===== -->
+      <section class="section menu" id="menu" aria-labelledby="menu-title">
+        <div class="wrap menu-grid">
+          <div class="menu-side">
+            <div class="section-head">
+              <h2 class="display" id="menu-title">Taste the moment</h2>
+              <p>Delicious food and refreshing drinks, surrounded by nature.</p>
+            </div>
+            <div class="menu-tabs" id="menu-tabs" role="tablist" aria-label="Menu categories"></div>
+          </div>
+
+          <div class="menu-panel" id="menu-panel" role="tabpanel" tabindex="0">
+            <noscript>
+              <p>Please turn on JavaScript to see the menu, or call us on 9808093952.</p>
+            </noscript>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Gallery ===== -->
+      <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 class="display" id="gallery-title">See Drishya</h2>
+            <p>A peaceful place surrounded by greenery, fresh air and the beauty of nature.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <a class="tile tile-a" href="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;q=80&amp;w=1600">
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;q=75&amp;w=800"
+                srcset="
+                  https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;q=75&amp;w=500  500w,
+                  https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;q=75&amp;w=800  800w,
+                  https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&amp;fit=crop&amp;q=75&amp;w=1200 1200w
+                "
+                sizes="(max-width: 40em) 100vw, 36rem"
+                alt="Restaurant dining area"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="tile-caption">Dining at Drishya</span>
+            </a>
+
+            <a class="tile tile-b" href="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;q=80&amp;w=1600">
+              <img
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;q=75&amp;w=600"
+                srcset="
+                  https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;q=75&amp;w=400 400w,
+                  https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&amp;fit=crop&amp;q=75&amp;w=700 700w
+                "
+                sizes="(max-width: 40em) 50vw, 18rem"
+                alt="Freshly served food"
+                width="600"
+                height="450"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="tile-caption">Taste the moment</span>
+            </a>
+
+            <a class="tile tile-c" href="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;q=80&amp;w=1600">
+              <img
+                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;q=75&amp;w=600"
+                srcset="
+                  https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;q=75&amp;w=400 400w,
+                  https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;q=75&amp;w=700 700w
+                "
+                sizes="(max-width: 40em) 50vw, 18rem"
+                alt="Green forest"
+                width="600"
+                height="900"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="tile-caption">Surrounded by greenery</span>
+            </a>
+
+            <a class="tile tile-d" href="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;q=80&amp;w=1600">
+              <img
+                src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;q=75&amp;w=600"
+                srcset="
+                  https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;q=75&amp;w=400 400w,
+                  https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&amp;fit=crop&amp;q=75&amp;w=700 700w
+                "
+                sizes="(max-width: 40em) 50vw, 18rem"
+                alt="Peaceful natural landscape"
+                width="600"
+                height="450"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="tile-caption">Enjoy the view</span>
+            </a>
+
+            <a class="tile tile-e" href="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;q=80&amp;w=1600">
+              <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;q=75&amp;w=800"
+                srcset="
+                  https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;q=75&amp;w=500  500w,
+                  https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;q=75&amp;w=800  800w,
+                  https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;q=75&amp;w=1200 1200w
+                "
+                sizes="(max-width: 40em) 100vw, 36rem"
+                alt="Calm water landscape"
+                width="800"
+                height="450"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="tile-caption">Nature around us</span>
+            </a>
+
+            <a class="tile tile-f" href="https://images.unsplash.com/photo-1501691223387-dd0500403074?auto=format&amp;fit=crop&amp;q=80&amp;w=1600">
+              <img
+                src="https://images.unsplash.com/photo-1501691223387-dd0500403074?auto=format&amp;fit=crop&amp;q=75&amp;w=800"
+                srcset="
+                  https://images.unsplash.com/photo-1501691223387-dd0500403074?auto=format&amp;fit=crop&amp;q=75&amp;w=500  500w,
+                  https://images.unsplash.com/photo-1501691223387-dd0500403074?auto=format&amp;fit=crop&amp;q=75&amp;w=800  800w,
+                  https://images.unsplash.com/photo-1501691223387-dd0500403074?auto=format&amp;fit=crop&amp;q=75&amp;w=1200 1200w
+                "
+                sizes="(max-width: 40em) 100vw, 36rem"
+                alt="Misty mountain landscape"
+                width="800"
+                height="450"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="tile-caption">Cool air and rain</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Contact ===== -->
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="wrap contact-grid">
+          <div class="contact-info">
+            <div class="section-head">
+              <h2 class="display" id="contact-title">Come enjoy the nature</h2>
+              <p>
+                Find us in Pachbhaiya, Pokhara 31, surrounded by greenery and the peaceful
+                atmosphere of Begnas Lake.
+              </p>
+            </div>
+
+            <dl class="details">
+              <div>
+                <dt>Address</dt>
+                <dd>Pachbhaiya, Pokhara 31<br />Kaski, Nepal</dd>
+              </div>
+              <div>
+                <dt>Phone</dt>
+                <dd><a href="tel:+9779808093952">9808093952</a></dd>
+              </div>
+            </dl>
+
+            <div class="actions">
+              <a class="btn btn-primary" href="tel:+9779808093952">
+                <svg class="icon" aria-hidden="true"><use href="#i-phone" /></svg>
+                Call us
+              </a>
+              <a
+                class="btn btn-dark"
+                href="https://www.google.com/maps?ftid=0x3995a33cfd5536f9:0x9f3f84c2f1604501"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="icon" aria-hidden="true"><use href="#i-pin" /></svg>
+                Open in Google Maps
+              </a>
+            </div>
+          </div>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.3941231652616!2d84.1007550760765!3d28.164926975923272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995a33cfd5536f9%3A0x9f3f84c2f1604501!2sDrishya%20A%20Restaurant!5e0!3m2!1sen!2sus!4v1789805387961!5m2!1sen!2sus"
+              title="Map showing Drishya Restaurant in Pachbhaiya, Pokhara"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="strict-origin-when-cross-origin"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+      <div class="wrap footer-grid">
+        <div>
+          <p class="footer-mark" lang="ne">दृश्य रेस्टुरेन्ट</p>
+          <p>Drishya Restaurant</p>
+          <p>Psycho Dada — Enjoy the Nature</p>
+        </div>
+
+        <address>
+          Pachbhaiya, Pokhara 31<br />
+          Kaski, Nepal<br />
+          <a href="tel:+9779808093952">9808093952</a>
+        </address>
+
+        <nav aria-label="Footer">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <p class="wrap copyright">
+        © <span id="year">2026</span> Drishya Restaurant. All rights reserved.
+      </p>
+    </footer>
+
+    <!-- ===== Photo viewer (opened from the gallery) ===== -->
+    <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+      <form method="dialog">
+        <button class="lightbox-close" type="submit" aria-label="Close photo">
+          <svg class="icon" aria-hidden="true"><use href="#i-close" /></svg>
+        </button>
+      </form>
+      <figure>
+        <img id="lightbox-img" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+    </dialog>
+  </body>
+</html>
